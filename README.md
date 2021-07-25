@@ -1,6 +1,6 @@
 # Color Spray
 
-![](https://github.com/fengwang/super_resolution/raw/master/assets/demo.png)
+![](https://github.com/fengwang/color_spray/raw/master/assets/demo.png)
 
 
 STEM images colorization using Deep Convolutional Neural Networks.
