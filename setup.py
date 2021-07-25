@@ -22,10 +22,10 @@ setup(
     author_email=about['__author_email__'],
     url=about['__url__'],
     packages=['color_spray'],
-    package_dir={"": '.',}
+    package_dir={"": '.',},
     include_package_data=True,
     python_requires=">=3.6.*",
-    install_requires=['imageio', 'tensorflow>=2.3']
+    install_requires=['imageio', 'tensorflow>=2.3'],
     license=about['__license__'],
     zip_safe=False,
     entry_points={ 'console_scripts': ['color_spray=color_spray.entry_points:main'], },
