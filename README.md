@@ -7,7 +7,7 @@ STEM images colorization using Deep Convolutional Neural Networks.
 
 ## Installing
 
-Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):
+__A__. Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):
 
 ```bash
 pip3 install color-spray
@@ -19,8 +19,10 @@ cd color_spray
 python3 -m pip install -e .
 ```
 
+__B__. Dowload pretrained model files from `https://drive.google.com/drive/folders/1dl-iNgROmSv71EpzNalh97zksKIBc90u?usp=sharing`, place them in your home folder, under path `.color_spray/model`.
 
 ## Usage
+
 
 Command line:
 
