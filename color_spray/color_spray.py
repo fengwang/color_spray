@@ -177,17 +177,17 @@ def clean_input( image ):
     assert False, f"Unknown image with shape {image.shape}"
 
 
-def remove_background_noise( image ):
+def remove_background_noise( img ):
     img[img<np.mean(img)] = 0
     return img
 
 
 color_spray_model = None
-def color_spray( input_gray_image_path, output_rgb_image_path=None, remove_background_noise=True ):
+def color_spray( input_gray_image_path, output_rgb_image_path=None, should_remove_background_noise=True ):
     # read gray image
     im = imageio.imread( input_gray_image_path )
     im = clean_input( im )
-    if remove_background_noise:
+    if should_remove_background_noise:
         im = remove_background_noise( im )
 
     # preparing input for the neural network
